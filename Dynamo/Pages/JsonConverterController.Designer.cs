@@ -78,6 +78,7 @@
             btnSaveJson.TabIndex = 11;
             btnSaveJson.Text = "Save File";
             btnSaveJson.UseVisualStyleBackColor = true;
+            btnSaveJson.Click += btnSaveJson_Click;
             // 
             // btnAddFile
             // 

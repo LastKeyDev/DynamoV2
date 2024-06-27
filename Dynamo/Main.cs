@@ -7,19 +7,21 @@ namespace Dynamo
     public partial class Main : Form
     {
         private FormatConverter converter = new FormatConverter();
-        JsonConverterController controller = new JsonConverterController();
+     
         private DataTable dt = new DataTable();
         private int column;
         public Main()
         {
             InitializeComponent();
-           
-
+  
 
         }
         private void openFormater(object sender, EventArgs e)
         {
-            controller.MdiParent = this;
+            JsonConverterController controller = new JsonConverterController
+            {
+                MdiParent = Main.ActiveForm
+            };
             controller.Show();
         }
 

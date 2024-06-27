@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dynamo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+338f54fc88cd10ddf3c27d5548bf707c31796a8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b30008953a6dce21e11e18ca9af06ef149d99fc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dynamo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dynamo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

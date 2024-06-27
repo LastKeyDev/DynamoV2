@@ -65,7 +65,7 @@
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             Name = "Main";
-            Text = "Form1";
+            Text = "Dynamo";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
