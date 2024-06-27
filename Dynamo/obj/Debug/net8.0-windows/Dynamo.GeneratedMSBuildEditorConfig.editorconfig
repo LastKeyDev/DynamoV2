@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Dynamo
-build_property.ProjectDir = D:\Devs\Dynamo\Dynamo\Dynamo\
+build_property.ProjectDir = C:\Users\Nacho\Documents\GitHub\DynamoV2\Dynamo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

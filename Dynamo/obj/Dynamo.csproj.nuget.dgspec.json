@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Devs\\Dynamo\\Dynamo\\Dynamo\\Dynamo.csproj": {}
+    "C:\\Users\\Nacho\\Documents\\GitHub\\DynamoV2\\Dynamo\\Dynamo.csproj": {}
   },
   "projects": {
-    "D:\\Devs\\Dynamo\\Dynamo\\Dynamo\\Dynamo.csproj": {
+    "C:\\Users\\Nacho\\Documents\\GitHub\\DynamoV2\\Dynamo\\Dynamo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Devs\\Dynamo\\Dynamo\\Dynamo\\Dynamo.csproj",
+        "projectUniqueName": "C:\\Users\\Nacho\\Documents\\GitHub\\DynamoV2\\Dynamo\\Dynamo.csproj",
         "projectName": "Dynamo",
-        "projectPath": "D:\\Devs\\Dynamo\\Dynamo\\Dynamo\\Dynamo.csproj",
+        "projectPath": "C:\\Users\\Nacho\\Documents\\GitHub\\DynamoV2\\Dynamo\\Dynamo.csproj",
         "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-        "outputPath": "D:\\Devs\\Dynamo\\Dynamo\\Dynamo\\obj\\",
+        "outputPath": "C:\\Users\\Nacho\\Documents\\GitHub\\DynamoV2\\Dynamo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
